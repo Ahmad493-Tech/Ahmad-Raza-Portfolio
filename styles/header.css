@@ -1,0 +1,75 @@
+.header-section {
+  display: flex;
+  height: 76px;
+  background-color: white;
+  box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.153) ;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+
+.left-section {
+  display: flex;
+  width: 300px;
+  justify-content: end;
+}
+
+.left-section img {
+  height: 70px;
+  margin: 3px 0px;
+}
+
+.middle-section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.middle-section p {
+  font-family: 'Noto Serif', serif;
+  font-size: 20px;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+}
+
+.active, .middle-section p:hover {
+  color: rgb(27, 174, 112);
+  border: 1px solid rgb(27, 174, 112);
+}
+
+.middle-section p:active {
+  color: white;
+}
+
+.right-section {
+  display: flex;
+  width: 380px;
+  justify-content: start;
+  align-items: center;
+}
+
+.right-section button {
+  height: 50px;
+  padding: 10px 40px;
+  background-color: rgb(27, 174, 112);
+  color: black;
+  font-family: 'Noto Serif', serif;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 3px;
+  transition-duration: 0.3s;
+}
+
+.right-section button:hover {
+  background-color: lightgreen;
+}
+
+.right-section button:active {
+  color: white;
+}

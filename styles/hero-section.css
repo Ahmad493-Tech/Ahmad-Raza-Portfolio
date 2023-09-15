@@ -1,0 +1,53 @@
+.hero-section-container {
+  display: flex;
+  height: 800px;
+  width: 1440px;
+  background-image: url(../images/backgrounds/home-hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-left-section {
+  height: 500px;
+  position: relative;
+  left: 200px;
+  bottom: 0px;
+  top: 210px;
+}
+
+.greeting {
+  font-family: 'Noto Serif';
+  font-size: 40px;
+}
+
+.name {
+  font-family: 'Noto Serif';
+  font-size: 80px;
+  line-height: 1.8;
+}
+
+.profession {
+  font-family: 'Noto Serif';
+  font-size: 40px;
+}
+
+.learn-more-btn  button {
+  padding: 12px 89px;
+  border-radius: 60px;
+  font-family: 'Noto Serif';
+  font-size: 30px;
+  border-style: none;
+  background-color: rgb(27, 174, 112);
+  margin: 50px 0px 0px 0px;
+}
+
+.learn-more-btn button:hover {
+  background-color: lightgreen;
+
+}
+
+.learn-more-btn button:active {
+  color:white ;
+}
+
+  
