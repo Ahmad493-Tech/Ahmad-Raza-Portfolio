@@ -1,7 +1,7 @@
 .header-section {
   display: flex;
   height: 76px;
-  background-color: white;
+  background-color: rgb(266, 230, 0);
   box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.153) ;
   position: fixed;
   top: 0px;
